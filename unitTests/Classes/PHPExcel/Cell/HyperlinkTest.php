@@ -25,7 +25,7 @@ class HyperlinkTest extends PHPUnit_Framework_TestCase
     public function testSetUrl()
     {
         $initialUrlValue = 'http://www.phpexcel.net';
-        $newUrlValue = 'http://github.com/PHPOffice/PHPExcel';
+        $newUrlValue = 'http://github.com/smileythane/PHPExcel';
 
         $testInstance = new PHPExcel_Cell_Hyperlink($initialUrlValue);
         $result = $testInstance->setUrl($newUrlValue);

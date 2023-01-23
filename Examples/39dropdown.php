@@ -44,8 +44,8 @@ $objPHPExcel = new PHPExcel();
 // Set document properties
 echo date('H:i:s') , " Set document properties" , EOL;
 $objPHPExcel->getProperties()
-    ->setCreator("PHPOffice")
-	->setLastModifiedBy("PHPOffice")
+    ->setCreator("smileythane")
+	->setLastModifiedBy("smileythane")
 	->setTitle("PHPExcel Test Document")
 	->setSubject("PHPExcel Test Document")
 	->setDescription("Test document for PHPExcel, generated using PHP classes.")
